@@ -22,10 +22,10 @@ class Knowledge(Base):
     		return ("If you want to learn about {}, you should look at the Wikipedia article called {}. We gave this article a rating of {}").format(self.Article_name, self.year, self.rating)
     		
 
-BHM= Knowledge(Article_name="Black History Month", year=2019, rating="10 out of 10!")
-print(BHM)
-Vaccination= Knowledge(Article_name="Vaccination", year=2019, rating="8 out of 10!")
-print(Vaccination)
+# BHM= Knowledge(Article_name="Black History Month", year=2019, rating="10 out of 10!")
+# print(BHM)
+# Vaccination= Knowledge(Article_name="Vaccination", year=2019, rating="8 out of 10!")
+# print(Vaccination)
 # Fast Food= Knowledge(Article_name="Fast Food", year=2019, rating=7/10)
 # print(Fast Food)
 
